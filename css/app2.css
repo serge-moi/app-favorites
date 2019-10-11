@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+
+/* BODY */
+
+
+#container{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 62.5%;
+    width: 50%;
+    background: linear-gradient(white, #e66465, #0c3c4b);
+}
+
+
+/* HEADER */
+
+
+#topcont{
+    background-image: url(../images/leaguefriends.png);
+    background-size: cover;
+    height: 460px;
+    box-shadow: 0px 0px 8px black;
+    border-top-left-radius: 50%;
+    border: black 10px double;
+    background-clip: content-box;
+}
+
+
+/* MAIN */
+
+
+#midcont{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#medtitle{
+    font-family: 'Righteous', cursive;
+    padding-bottom: 15px;
+    border-bottom: 8px ridge #83458a;
+}
+
+span{
+    color: #a91a5b;
+}
+
+#sec1{
+    background: linear-gradient(0.25turn, #000000, #ebf8e1, #033544);
+    margin-bottom: 30px;
+}
+
+#art1{
+    display: flex;
+    justify-content: center;
+}
+
+#lol1{
+    box-shadow: 8px 0 8px -2px black, -8px 0 8px -2px black;
+    border: 4px inset #4b193b;
+}
+
+#border{
+    border-bottom: 8px ridge #e50260;
+    margin-bottom: 28px;
+}
+
+#oneh3{
+    margin-right: 6px;
+}
+
+#lol3{
+    width: 101%;
+}
+
+#lol2, #lol3, #lol4, #lol5{
+    width: 100%;
+}
+
+#lol2{
+    width: 99%;
+}
+
+#sec2{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#art2{
+    border-right: 3px ridge #44ff97;
+    height: 1137px;
+}
+
+h3{
+    background: linear-gradient(to left, #982b2b, #170b0b 50%, #fd3737 75%, #000000db 75%);
+    padding: 15px 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 3px black;
+    text-transform: uppercase;
+}
+
+#para1, #para2, #para3, #para4{
+    font-family: 'Righteous', cursive;
+    padding: 0 22px;
+    text-align: justify;
+}
+
+#art3{
+    border-left: 3px ridge #44ff97;
+    padding-left: 4px;
+    height: 1137px;
+}
+
+#border2{
+    border-bottom: 8px ridge #2a315f;
+    margin-bottom: 28px;
+}
+
+#sec3{
+    display: flex;
+}
+
+#art4{
+    border-right: 3px ridge #44ff97;
+    padding-right: 4px;
+    height: 950px;
+}
+
+#art5{
+    border-left: 3px ridge #44ff97;
+    height: 950px;
+    padding-left: 4px;
+}
+
+#fly1{
+    position: absolute;
+    margin-left: -486px;
+    margin-top: 2397px;
+    width: 466px;
+    height: 200px;
+    padding-top: 30px;
+    border-radius: 0 1% 1% 0;
+    background-color: white;
+    box-shadow: 1px 2px 9px black;
+}
+
+#fly2{
+    position: absolute;
+    margin-left: 913px;
+    margin-top: 2780px;
+    width: 466px;
+    height: 200px;
+    padding-top: 30px;
+    border-radius: 1% 0 0 1%;
+    background-color: white;
+    box-shadow: 1px 2px 9px black;
+}
+
+#flyh3one{
+    border-radius: 0 1px 1px 0;
+    background: linear-gradient(to left, #000000, #116c73 50%, #000000 75%, #08545ddb 75%);
+}
+
+#flyh3two{
+    border-radius: 1px 0 0 1px;
+    background: linear-gradient(to right, #000000, #116c73 50%, #000000 75%, #08545ddb 75%);
+}
+
+#dlfly{
+    position: absolute;
+    margin-top: 3152px;
+    margin-left: -487px;
+    background-color: white;
+    width: 466px;
+    box-shadow: 1px 2px 8px black;
+}
+
+#dlflytitle{
+    font-weight: bold;
+    font-size: 22px;
+    background: linear-gradient(#7f79ff, #08144e 50%, #000000 75%);
+    padding: 15px 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 3px black;
+    text-transform: uppercase;
+}
+
+.listes{
+    font-family: 'Righteous', cursive;
+    line-height: 34px;
+}
+
+.liste-a{
+    text-decoration: none;
+    color: lime;
+    text-shadow: 1px 1px 2px black;
+}
+
+.liste-a:hover{
+    color: darkolivegreen
+}
+
+.liste-a:focus{
+    color: darkgray;
+}
+
+
+/* FOOTER */
+
+
+#botcont{
+    background: linear-gradient(#021b1d, #687f64 50%, #063837 75%);
+    margin-left: -476px;
+    width: 1902px;
+    margin-top: 23px;
+    box-shadow: 0px -7px 8px black;
+}
+
+#rito{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+#para5{
+    text-align: center;
+    margin: 0;
+    width: 614px;
+    margin: auto;
+    color: gainsboro;
+    padding: 5px 0 15px 0;
+}
+

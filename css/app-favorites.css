@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	font-family: "Bree Serif", Arial, sans-serif;
+	font-size: 1.8rem;
+	line-height: 2;
+	margin: 0;
+	padding: 0;
+	color: #999;
+}
+
+img {
+	max-width: 100%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+/* HEADER */
+header {
+	padding: 50px;
+	display: flex;
+	background-color: dimgray;
+	justify-content: space-around;
+}
+
+header > .lienapp {
+	color: #999;
+	font-size: 4rem;
+}
+
+header  .lienapp:hover {
+	transform: translate(0, 10px);
+}
+
+.lienapp, .lienapp2 {
+	text-decoration: none;
+	color: rgba(246, 36, 89,1);
+	transition: all 0.3s ease 0s;	
+}
+
+header a:hover {
+	color: rgba(246, 36, 89,1);
+}
+
+
+header nav a:hover img {
+	transform: scale(1.3);
+}
+
+header img {
+	width: 50px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	transition: transform 0.3s ease 0s;
+}
+
+nav .lienapp, .lienapp2 {
+	display: inline-block;
+	color: #999;
+	padding: 0 50px;
+	text-align: center;
+	font-size: 2rem;
+	text-shadow: 1px 1px 18px black;
+}
+
+@keyframes bounce{
+	from{
+        transform :translateY(0);
+    }
+    to{
+        transform :translateY(-20px);
+    }
+}
+
+/* MAIN */
+
+main{
+	display: flex;
+    max-height: 100%;
+	border-bottom: 12px solid #FFA518;
+	min-height: 720px;
+}
+
+section{
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#artmainsect{
+	display: flex;
+	flex-basis: 80%;
+	background-color: #F7F7F7;
+}
+
+#sectart2{
+	display: flex;
+    width: 55%;
+    justify-content: space-around;
+}
+
+#artclash, #artlol, #artnrj{
+	display: flex;
+	flex-basis: 30%;
+	box-shadow: 1px 4px 6px;
+	flex-direction: column;
+	margin-top: 50px;
+	border-radius: 10px;
+	background-color: white;
+	max-height: 540px;
+}
+
+figure{
+	margin: 0;
+}
+
+figure a{
+	padding: 0;
+	display: flex;
+}
+
+figcaption{
+	padding: 10px 0 10px 25px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-size: 17px;
+}
+
+#figartclash{
+	background-color: #52A25D;
+}
+
+#figartlol{
+	background-color:#065269;
+}
+
+#figartnrj{
+	background-color: #E0041F;
+}
+
+#artcont1, #artcont2, #artcont3{
+	padding-left: 25px;
+	min-height: 33%;
+}
+
+.artp{
+	font-family: 'Concert One', cursive;
+	line-height: 30px;
+	margin: 0;
+	font-weight: bold;
+	min-height: 100%;
+	padding-top: 5px;
+	font-size: 25px;
+    font-weight: inherit;
+}
+
+span{
+	font-size: 15px;
+}
+
+#artlienclash, #artlienlol, #artliennrj{
+	text-decoration: none;
+	color: black;
+}
+
+#read1, #read2, #read3{
+	text-decoration: none;
+    font-size: 15px;
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+#read1{
+	color: #52A25D; 
+}
+
+#read2{
+	color:#065269;
+}
+
+#read3{
+	color: #E0041F;
+}
+
+aside{
+	display: flex;
+	flex-direction: column;
+}
+
+#artmainsect2{
+	display: flex;
+	flex-basis: 20%;
+	background-color: #E9E9E9;
+}
+
+#asidetitle{
+	text-align: center;
+    font-size: 27px;
+    margin: 0;
+    margin-top: 20px;
+    color: black;
+}
+
+#asidenav{
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 94%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#asidenav a{
+	text-decoration: none;
+	box-shadow: 1px 4px 2px #b9b6b6;
+	border-radius: 10px;
+	margin: 8px;
+	background-color: white;
+	transition: transform 1s ease 0s;
+}
+
+#asidenav a:hover{
+	transform: scale(1.1);
+}
+
+#asidenav .fab{
+	font-size: 40px;
+	padding: 31px 34px 30px 34px;
+	color: #3B5998;
+}
+
+#asidenav .fab.fa-instagram{
+	color:#8a49a1;
+}
+
+#asidenav .fab.fa-twitch{
+	color:#6441A5;
+}
+
+#asidenav .fab.fa-twitter{
+	font-size: 30px;
+	padding: 35px 35px 26px 35px;
+	color: #488BF4;
+}
+
+#asidenav .fab.fa-youtube{
+	font-size: 30px;
+	margin-top: 7px;
+	padding: 30px 34px 30px 34px;
+	color: #FF0000;
+}
+
+#asidenav .fab.fa-wikipedia-w{
+	font-size: 30px;
+	padding: 35px 33px 33px 33px;
+	color: black;
+}
+
+/* FOOTER */
+
+footer{
+	display: flex;
+	background-color: white;
+}
+
+#footnav{
+	display: flex;
+	flex-basis: 80%;
+	align-items: center;
+}
+
+#footnav:hover a{
+	transition: all 0.2s ease-out;
+	opacity: 0.5;
+}
+
+#footnav:hover a:hover{
+	transition: all 0.2s ease-out;
+	opacity: 1;
+}
+
+#footnav > a{
+	text-decoration: none;
+    color: #000000;
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#footnavimg{
+	display: flex;
+    flex-basis: 20%;
+}
+
+#footnavimg a #appimg{
+	width: 68%;
+    height: 53px;
+}
+
+#footnavimg a #googimg{
+	width: 72%;
+    height: 64.2%;
+    border-radius: 0px;
+}
+
+#footlien1{
+	display: flex;
+    justify-content: flex-end;
+}
+
+#footlien2{
+	display: flex;
+    align-items: center;
+}

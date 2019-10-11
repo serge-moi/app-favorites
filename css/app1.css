@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint&display=swap');
+
+
+/* BODY */
+
+
+body{
+    background: #000 url(../images/r3_zen666_bg.jpg) no-repeat top left;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+
+
+#headcont{
+    background: url(../images/Clan_Champion_I.png) no-repeat top left;
+    max-width: 770px;
+    height: 215px;
+    background-size: 180px;
+    background-position-x: 40px;
+    background-position-y: 26px;
+}
+
+#headcont #onetitle{
+    margin: 0 0 0 291px;
+    background: url(../images/banniere-clash.png) no-repeat top left;
+    width: 479px;
+    height: 190px;
+    text-indent: -5000px;
+    background-size: contain;
+}
+
+
+/* MAIN */
+
+
+main{
+    max-width: 680px;
+    padding-left: 39px;
+}
+
+section p{
+    color: white;
+    font-family: verdana, sans-serif;
+    font-size: 13px;
+    align-self: center;
+    opacity: 0.7;
+}
+
+#mid-section{
+    display: flex;
+}
+
+#leftsect{
+    max-width: 465px;
+    margin-bottom: 20px;
+}
+
+#bombe{
+    width: 35%;
+}
+
+#hogs{
+    width: 40%;
+    padding-right: 27px;
+}
+
+#art2{
+    display: flex;
+    margin-top: 50px;
+}
+
+#art3{
+    display: flex;
+}
+
+#para1{
+    padding-right: 34px;
+}
+
+#para2{
+    padding: 0 27px 0 13px;
+}
+
+#nav1{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.titletwo{
+    font-family: 'Finger Paint', cursive;
+    color: gold;
+    background-color: dimgrey;
+    font-size: 18px;
+    padding: 9px;
+    opacity: 0.7;
+    border-radius: 3px;
+}
+
+.nas{
+    text-decoration: none;
+    color: bisque;
+    padding: 3px 0px 2px 9px;
+    border-bottom: 1px dashed #c14c10;
+    opacity: 0.5;
+}
+
+.nas:hover{
+    color: darkred;
+}
+
+#secdown{
+    max-width: 460px;
+}
+
+#artpart2{
+    max-width: 225px;
+}
+
+#screen{
+    width: 204%;
+    margin-top: 60px;
+    box-shadow: 0px 2px 26px darkred;
+}
+
+#screen:active{
+    transform: scale(2.5);
+    width: 20%;
+    box-shadow: none;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: -470px;
+}
+
+#screen:active + span{
+    display: none;
+}
+
+#screen:active ~ #artpart2{
+    height: 20px;
+}
+
+span{
+    color: white;
+    display: block;
+    text-align: center;
+    width: 460px;
+    padding: 20px 0;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    max-width: 535px;
+    background-image: url(../images/clashof.jpg);
+    margin-top: 20px;
+    background-position: bottom;
+    opacity: 0.75;
+}
+
+#fly{
+    position: fixed;
+    bottom: 0;
+    left: 460px;
+    background: url(../images/sorciere.png) no-repeat top;
+    width: 438px;
+    height: 272px;
+    background-size: 105%;
+}
+
+#footnav{
+    display: flex;
+    width: 460px;
+    margin: auto;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.afoot{
+    text-decoration: none;
+    color: white;
+}
+
+
+#footnav:hover .afoot{
+	transition: all 0.2s ease-out;
+	opacity: 0.5;
+}
+
+#footnav:hover .afoot:hover{
+	transition: all 0.2s ease-out;
+	opacity: 1;
+}
+
+
+/* MERCI, AUREVOIR, A BIENTOT */
